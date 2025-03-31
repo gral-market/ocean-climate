@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 import DayNavigation from '../components/DayNavigation';
 
 const Day3 = () => {
@@ -131,6 +132,10 @@ const Day3 = () => {
             </motion.div>
           </motion.div>
         </section>
+        <div className="container mx-auto px-4 py-8">
+          <Link to="/" className="text-blue-600 hover:underline">Back to Home</Link>
+          <Link to="/day4" className="text-blue-600 hover:underline ml-4">Next Day</Link>
+        </div>
       </div>
     </div>
   );

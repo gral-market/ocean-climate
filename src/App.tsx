@@ -10,7 +10,7 @@ import Cora from './pages/Cora';
 function App() {
   return (
     <Router>
-      <div>
+      <div className="min-h-screen bg-gradient-to-b from-blue-900 to-black text-white">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/day1" element={<Day1 />} />

@@ -75,11 +75,11 @@ const Day4 = () => {
                     and overfishing.
                   </p>
                 </div>
-                <div className="aspect-video rounded-xl overflow-hidden mb-6">
-                  <img 
-                    src="/images/coral-reef.jpg" 
+                <div className="bg-white rounded-lg p-4 mb-8">
+                  <img
+                    src="/coral.jpeg"
                     alt="Coral Reef Ecosystem"
-                    className="w-full h-full object-cover"
+                    className="w-full h-auto rounded-lg"
                   />
                 </div>
               </div>
